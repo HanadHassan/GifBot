@@ -1,0 +1,16 @@
+{
+  "name": "hanad",
+  "version": "1.0.0",
+  "description": "discord bot ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hanad",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "giphy-js-sdk-core": "^1.0.6",
+
+  }
+}

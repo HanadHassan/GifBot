@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const GphApiClient = require('giphy-js-sdk-core');
-const gifToken = "NTI2MjY0ODk0NzgyMzA4Mzcx.DwMpCQ.BTWrsd-ri8AqBxMUfkOjfHw7WGA"
+const gifToken = "INSERT TOKEN"
 giphyClient = GphApiClient(process.env.gifToken);
 const prefix = "!";
 
@@ -13,6 +13,7 @@ client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
   if (message.content.startsWith(prefix + "ping")) {
     message.channel.send("pong!");
+  if (message.content)
   } else
   if (message.content.startsWith(prefix + "foo")) {
     message.channel.send("bar!");
@@ -156,4 +157,4 @@ client.on('message', msg => {
 
 
 
-client.login('NTI2MjY0ODk0NzgyMzA4Mzcx.DwMpCQ.BTWrsd-ri8AqBxMUfkOjfHw7WGA');
+client.login('INSERT TOKEN');
